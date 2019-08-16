@@ -5,14 +5,20 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
+flake8 = "*"
 
 [packages]
-jupyterlab = "*"
-sklearn = "*"
-tensorflow = "*"
 keras = "*"
+tensorflow = "*"
+sklearn = "*"
+jupyterlab = "*"
 matplotlib = "*"
 pillow = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
